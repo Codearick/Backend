@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "about express",
   "main": "index.js",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
-    "dev": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
