@@ -11,7 +11,7 @@ services:
     environment:
       - POSTGRES_DB=rohanDB
       - POSTGRES_USER=codewithrohan
-      # - POSTGRES_PASSWORD=chaiaurcode
+      - POSTGRES_PASSWORD=codewithrohan
 
   adminer:
     image: adminer
